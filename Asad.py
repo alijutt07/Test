@@ -10,7 +10,7 @@ import requests
  
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from Asad import check
-    check()
+    from Asad import cheak
+    cheak()
 elif bit == '32bit':
     print('YOUR PHONE IS NOT SUPPORTED BRO')
